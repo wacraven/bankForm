@@ -1,0 +1,30 @@
+#navBar {
+	background-color: gray;
+	padding: 10px;
+}
+
+.navButtons, a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #fff;
+	margin: 10px;
+	display: inline;
+}
+
+.navButtons, a:hover {
+	color: silver;
+}
+
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+.textLabel {
+	display: block;
+	padding-right: 10px;
+}
+
+#container, input {
+
+}
