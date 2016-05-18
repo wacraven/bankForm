@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bank Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#" title="Home">Home</a></li>
+		</ul>
+	</nav>
+	<div id="container">
+		<h3>Personal Information</h3>
+		<fieldset>
+			<legend>Applicant Information</legend>
+			<p><label class="textLable" for="appFirstName">First Name<input type="text" id="appFirstName" name="" value="" placeholder="First Name"></label></p>
+			<p><label class="textLabel" for="appMidInt">Middle Initial<input type="text" id="appMidInt" name="" value="" placeholder="Middle Initial"></label></p>
+			<p><label class="textLabel" for="appLastName">Last Name<input type="text" id="appLastName" name="" value="" placeholder="Last Name"></label></p>
+			<p><label class="textLabel" for="appEmail">Email Address<input type="email" id="appEmail" name="" value="" placeholder="name@example.com"></p>
+			<p><label class="textLabel" for="appTel">Email Address<input type="tel" id="appTel" name="" value="" placeholder="xxx-xxx-xxxx"></p>
+			<p><label class="textLabel" for="appLinkedIn">LinkedIn Profile<input type="url" id="appLinkedIn" name="" value="" placeholder="www.example.com"></p>
+			<p><label class="textLabel" for="appAddr1">Address Line 1<input type="text" id="appAddr1" name="" value="" placeholder="Address Line 1"></p>
+			<p><label class="textLabel" for="appAddr2">Address Line 2<input type="text" id="appAddr2" name="" value="" placeholder="Address Line 2"></label></p>
+			<p><label class="textLabel" for="appCity">City<input type="text" id="appCity" name="" value="" placeholder="City"></label></p>
+			<p><label class="textLabel" for="appState">State<select name="" id="appState">
+				<option value="Select" selected disabled>Select One</option>}
+				<option value="AL">AL</option>
+				<option value="FL">FL</option>
+				<option value="GA">GA</option>	
+				<option value="NC">NC</option>
+				<option value="SC">SC</option>
+				<option value="TN">TN</option>
+			</select></p>
+			<p><label class="textLabel" for="appZip">Zip<input type="number" id="appZip" name="" value="" placeholder="Zip Code"></label></p>
+		</fieldset>
+		<fieldset>
+			<legend>Employment Information</legend>
+			<p><label class="textLabel" for="appEmploy">Current Employer<input type="text" id="appEmploy" name="" value="" placeholder="Employer"></label></p>
+			<p><label class="textLabel" for="appEmployAddr1">Employer Address Line 1<input type="text" id="appEmployAddr" name="" value="" placeholder="Employer Address"></label></p>
+			<p><label class="textLabel" for="appEmployAddr2">Employer Address Line 2<input type="text" id="appEmployAddr2" name="" value="" placeholder="Address Line 2"></label></p>
+			<p><label class="textLabel" for="appEmployCity">Employer City<input type="text" id="appEmployCity" name="" value="" placeholder="City"></label></p>
+			<p><label class="textLabel" for="appEmployState">Employer State<select name="" id="appEmployState">
+				<option value="Select" selected disabled>Select One</option>}
+				<option value="AL">AL</option>
+				<option value="FL">FL</option>
+				<option value="GA">GA</option>	
+				<option value="NC">NC</option>
+				<option value="SC">SC</option>
+				<option value="TN">TN</option>
+			</select></label></p>
+			<p><label class="textLabel" for="appEmployZip">Employer Zip<input type="number" id="appEmployZip" name="" value="" placeholder="Zip Code"></label></p>
+		</fieldset>
+		<h3>Loan Information</h3>
+		<fieldset>
+			<legend>Loan Type</legend>
+			<p><input type="radio" name="LoanType" id="comLoan"><label class="textlabel" for="comLoan">Commercial</label></input></p>
+			<p><input type="radio" name="LoanType" id="perLoan"><label class="textlabel" for="perLoan">Personal</label></input></p>
+			<p><input type="radio" name="LoanType" id="realEstateLoan"><label class="textlabel" for="realEstateLoan">Real Estate</label></input></p>
+			<p><input type="radio" name="LoanType" id="morgLaon"><label class="textlabel" for="morgLaon">Morgage</label></input></p>
+		</fieldset>
+		<fieldset>
+			<legend>Loan Information</legend>
+			<p><label class="textLabel" for="loanAmount">Amount<input id="loanAmount" type="number" name="" value=""></label></p>
+			<h5>Loan Term</h5>
+			<p><label><input id="loanTerm5" type="radio" name="loanTerm" value="">5 years</label></p>
+			<p><label><input id="loanTerm15" type="radio" name="loanTerm" value="">15 years</label></p>
+			<p><label><input id="loanTerm30" type="radio" name="loanTerm" value="">30 years</label></p>
+			<h5>Special Conditions</h5>
+			<p><label><input id="specCheck1" type="checkbox" name="" value="">I have a down payment</label></p>
+			<p><label><input id="specCheck2" type="checkbox" name="" value="">I am married</label></p>
+			<p><label><input id="specCheck3" type="checkbox" name="" value="">I have a down payment</label></p>
+			<p><label><input id="specCheck4" type="checkbox" name="" value="">I have a down payment</label></p>
+		</fieldset>
+		<fieldset>
+			<legend>Additional Information</legend>
+			<textarea name="" placeholder="Additional information" rows="5" cols="50"></textarea>
+		</fieldset>
+		<button type="">Submit</button>
+	</div>
+</body>
+</html>
