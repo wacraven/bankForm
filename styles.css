@@ -1,30 +1,62 @@
 #navBar {
-	background-color: gray;
-	padding: 10px;
-}
-
-.navButtons, a {
-	text-decoration: none;
-	list-style-type: none;
-	color: #fff;
-	margin: 10px;
-	display: inline;
-}
-
-.navButtons, a:hover {
-	color: silver;
+	background-color: darkslategray;
+	padding: 0px 10%;
+	position: fixed;
+	width: 100%;
 }
 
 #container {
 	width: 80%;
 	margin: auto;
+	padding: 100px 0;
+}
+
+.navButtons {
+	padding: 20px;
+	margin: 0px;
+	background-color: gray;
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	text-decoration: none;
+}
+
+.navButtons:hover {
+	color: black;
+	background-color: silver;
+}
+
+.navButtons:active {
+	padding: 20px 25px;
 }
 
 .textLabel {
 	display: block;
-	padding-right: 10px;
+	padding: 10px 0px;
+}
+
+fieldset {
+	border: 1px solid black;
+	padding: 10px;
 }
 
 #container, input {
 
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+h5 {
+	font-size: 17px;
+	font-weight: 900;
+}
+
+#submit {
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	margin-top: 10px;
 }
